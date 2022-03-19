@@ -283,7 +283,7 @@ section {
   margin-bottom: 0;
 }
 
-.gallery .box-container {
+.services .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
@@ -291,36 +291,36 @@ section {
   gap: 2rem;
 }
 
-.gallery .box-container .box {
+.services .box-container .box {
   overflow: hidden;
   position: relative;
   height: 25rem;
 }
 
-.gallery .box-container .box:hover {
+.services .box-container .box:hover {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border: 0.1rem solid #512a10;
 }
 
-.gallery .box-container .box:hover img {
+.services .box-container .box:hover img {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }
 
-.gallery .box-container .box:hover .content {
+.services .box-container .box:hover .content {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.gallery .box-container .box img {
+.services .box-container .box img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.gallery .box-container .box .content {
+.services .box-container .box .content {
   position: absolute;
   top: 0;
   left: 0;
@@ -334,13 +334,13 @@ section {
   padding-top: 4rem;
 }
 
-.gallery .box-container .box .content h3 {
+.services .box-container .box .content h3 {
   font-size: 25px;
   text-transform: capitalize;
   color: #222;
 }
 
-.gallery .box-container .box .content p {
+.services .box-container .box .content p {
   padding: 1rem 0;
   font-size: 17px;
   line-height: 2;
@@ -349,23 +349,23 @@ section {
 }
 
 @media(max-width:950px){
-	.gallery .box-container{
+	.services .box-container{
     display: grid;
     -ms-grid-columns: (minmax(10rem, 2fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
     gap: 3rem;	
 	}	
-	.gallery .box-container .box img{
+	.services .box-container .box img{
     height: 70%;
     width: 100%;
     
   }
 
-  .gallery .box-container .box .content{
+  .services .box-container .box .content{
     padding-top: 10px;
   }
 
-  .gallery .box-container .box .content p {
+  .services .box-container .box .content p {
     font-size: 14px;
   }
 	
