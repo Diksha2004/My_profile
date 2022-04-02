@@ -4,4 +4,6 @@
     font-family: sans-serif;
     margin: 12px;
     padding-inline-start: 30px;
+    transition-duration: 3sec;
+    border: 20px;
 }
