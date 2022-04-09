@@ -8,4 +8,5 @@
     border: 20px;
     
     user-select: none;
+    list-style-position: inside;
 }
