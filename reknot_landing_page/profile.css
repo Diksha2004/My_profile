@@ -7,4 +7,5 @@
     transition-duration: 3sec;
     border: 20px;
     
+    user-select: none;
 }
