@@ -11,4 +11,6 @@
     list-style-position: inside;
     quotes: 23;
     padding-top: 200px;
+    display: block;
+    overflow-y: auto;
 }
