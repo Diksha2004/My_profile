@@ -2,17 +2,6 @@
     background-color: rgba(113, 119, 120, 0.774);
     margin: 1px;
     font-family: sans-serif;
-    margin: 12px;
-    padding-inline-start: 30px;
-    transition-duration: 3sec;
-    border: 20px;
-    
-    user-select: none;
-    list-style-position: inside;
-    quotes: 23;
-    padding-top: 200px;
-    display: block;
-    overflow-y: auto;
-    font: 1em sans-serif;
-    padding-left: 12px;
+   
+ 
 }
