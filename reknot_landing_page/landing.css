@@ -156,8 +156,6 @@ section {
 .count .icons-container {
     display: -ms-grid;
     display: grid;
-    
-    
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 1rem;
     margin-top: 150px;
@@ -167,7 +165,6 @@ section {
     text-align: center;
     padding: 10px;
     border-radius: 1rem;
- 
     margin-bottom: 1rem;
   }
   
@@ -194,7 +191,6 @@ section {
     width:1900px;
     background: #3aafa934;
     transform:rotate(-4deg)
-    
     }
     
     @media screen and (max-width: 600px) {
