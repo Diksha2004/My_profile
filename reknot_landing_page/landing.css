@@ -197,7 +197,6 @@ section {
     
     }
     
- 
     @media screen and (max-width: 600px) {
       .count .icons::after{display: none;}
       .count .icons-container .icons h3{
